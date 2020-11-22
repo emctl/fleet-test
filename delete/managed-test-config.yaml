@@ -22,6 +22,10 @@ kind: AWSManagedCluster
 metadata:
   name: managed-test
   namespace: default
+spec:
+  networkSpec:
+    vpc:
+      cidrBlock: 10.50.0.0/16
 ---
 apiVersion: controlplane.cluster.x-k8s.io/v1alpha3
 kind: AWSManagedControlPlane
