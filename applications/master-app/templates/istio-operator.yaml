@@ -24,6 +24,8 @@ spec:
           value: "istio-operator"
         - name: "istioNamespace"
           value: "istio-system"
+        - name: "enableCRDTemplates"
+          value: "true"
 
   destination:
     namespace: istio-operator
