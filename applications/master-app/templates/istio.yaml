@@ -10,7 +10,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/emc1992/fleet-test.git
+    repoURL: https://github.com/Emc1992/fleet-test.git
     targetRevision: HEAD
     path: applications/istio
 
