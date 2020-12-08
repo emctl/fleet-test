@@ -7,7 +7,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Emctl/fleet-test.git
+    repoURL: https://github.com/emc1992/fleet-test.git
     targetRevision: HEAD
     path: applications/master-app
 
