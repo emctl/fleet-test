@@ -12,7 +12,7 @@ spec:
         name: http
         protocol: HTTP
       hosts:
-        - "a311a643b268b4f9b8a5474e23a3e4e8-2064936876.us-east-1.elb.amazonaws.com"
+        - "*"
 # Uncomment below to enable HTTPS
 #      tls:
 #        httpsRedirect: true
@@ -31,7 +31,7 @@ metadata:
   name: argocd-server
 spec:
   hosts:
-  - a311a643b268b4f9b8a5474e23a3e4e8-2064936876.us-east-1.elb.amazonaws.com
+  - "*"
   gateways:
     - argocd-gateway
   http:
