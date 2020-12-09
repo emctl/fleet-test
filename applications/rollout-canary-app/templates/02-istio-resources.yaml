@@ -20,7 +20,7 @@ spec:
         name: http
         protocol: HTTP
       hosts:
-        - "rollout-canary.kube"
+        - "rollout-canary.a311a643b268b4f9b8a5474e23a3e4e8-2064936876.us-east-1.elb.amazonaws.com"
 ---
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
@@ -33,7 +33,7 @@ metadata:
     app.kubernetes.io/managed-by: Tiller
 spec:
   hosts:
-  - rollout-canary.kube
+  - rollout-canary.a311a643b268b4f9b8a5474e23a3e4e8-2064936876.us-east-1.elb.amazonaws.com
   gateways:
     - rollout-canary-kube
   http:
